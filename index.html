@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Gifts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #F5F5F5;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4C9F70;
+        }
+        h1 {
+            color: white;
+            font-size: 36px;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
+        .navbar {
+            background-color: #4C9F70;
+            overflow: hidden;
+            text-align: center;
+        }
+        .navbar a {
+            display: inline-block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #2F6B3D;
+        }
+        .navbar a i {
+            margin-right: 8px;
+        }
+        .marquee {
+            background-color: #45a049;
+            color: white;
+            padding: 10px 0;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .product img:hover {
+            transform: scale(1.1);
+        }
+        .product h3 {
+            color: #2F6B3D;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .product button {
+            background-color: #45a049;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .product button:hover {
+            background-color: #2F6B3D;
+        }
+        footer {
+            background-color: #4C9F70;
+            text-align: center;
+            color: white;
+            padding: 20px 0;
+        }
+        .contact-us {
+            color: #45a049;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .contact-us:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxdLYdY1VlJLkcpMv-h7ixNPmjyvyxKNSdpg&s" alt="Logo">
+        <h1>Beautiful Gifts</h1>
+    </header>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="giftcontact.html">Contact</a>
+    </div>
+
+    <div class="marquee">
+        <marquee>Browse our beautiful collection of personalized gifts - perfect for every occasion!</marquee>
+    </div>
+
+    <div class="products-container">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/55/c7/92/55c792bcd8cfed83006dcd8253014b69.jpg"  alt="Photo Frame">
+            <h3>Personalized Photo Frame</h3>
+            <p>Capture the moments that matter the most with our beautifully designed photo frames, perfect for your special memories.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/9c/b8/08/9cb8085e7ae3306ebf5c2e2fc35de112.jpg" alt="Greeting Cards">
+            <h3>Custom Greeting Cards</h3>
+            <p>Express your feelings with personalized greeting cards. Crafted with love for every occasion.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/5f/24/31/5f24310c03af6dfae4cad10c423e52c2.jpg" alt="Pendants">
+            <h3>Custom Pendants</h3>
+            <p>Wear your sentiments with our beautifully crafted custom pendants, perfect for any special moment.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/09/a9/c2/09a9c260f3e8609201b2dd249cd00061.jpg" alt="Portrait">
+            <h3>Hand-painted Portrait</h3>
+            <p>Give the gift of art with a personalized hand-painted portrait, a lasting memory captured in time.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/70/3f/89/703f891967019e91d4ab0f7f3e00cfb7.jpg" alt="Personalized Calendars">
+            <h3>Personalized Calendar</h3>
+            <p>Stay organized with our custom-designed calendars. Perfect for any year and every occasion.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/78/cb/78/78cb78723f68287d91f98b13a923d904.jpg" alt="Bookmarks">
+            <h3>Custom Bookmarks</h3>
+            <p>For your loved ones who cherish reading. Add a personal touch with our beautiful custom bookmarks.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Beautiful Gifts. All rights reserved.</p>
+        <a class="contact-us" href="contact.html">Contact Us</a>
+    </footer>
+</body>
+</html>
